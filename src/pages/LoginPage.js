@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./LoginPage.css";
-import Navbar from "/home/azureuser/project/Deve/Anshul/src/components/Navbar.js";
+import Navbar from ".\Navbar.js";
 
 function LoginPage() {
   const [errorMessages, setErrorMessages] = useState({});
@@ -104,7 +104,7 @@ function LoginPage() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar/>
       <div className="app">
         <div className="login-form">
           <div className="title">Sign In</div>
